@@ -1,0 +1,17 @@
+public_network : "192.168.33.185"
+hostname : "vagrant-php-web-dev"
+hostsupdater : false
+dependencies:
+  php-71: false
+  php-72: true
+  mysql : true
+  sqlite : true
+  java-8 : false
+  mongodb : false
+  nginx: false
+  nodejs : true
+  redis : false
+  elasticsearch : false
+database: "dev"
+home_dir_folder: "www"
+
