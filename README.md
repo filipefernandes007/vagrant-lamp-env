@@ -55,4 +55,12 @@ For _**mysql**_ access client via ssh :
 After setup is finished, go to 192.168.33.185 in your browser. You should see the `phpinfo()` page.
 `phpMyAdmin` is accessible at http://192.168.33.185/phpmyadmin/ Username is 'root', password 'root'
 
+### With Symfony
+
+If you are going to use Symfony server command, do this:
+
+```
+php bin/console server:run 0.0.0.0:8000
+```
+
 Enjoy!
