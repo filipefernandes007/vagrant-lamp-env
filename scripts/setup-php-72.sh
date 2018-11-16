@@ -5,5 +5,6 @@ sudo apt-get install -y php7.2-cli php7.2-common libapache2-mod-php7.2 php7.2-fp
 sudo apt-get install -y php7.2-mysql
 sudo apt-get install -y php7.2-intl
 sudo apt-get install -y php7.2-sqlite3
+sudo apt-get install -y php7.2-zip
 
 sudo service apache2 restart
