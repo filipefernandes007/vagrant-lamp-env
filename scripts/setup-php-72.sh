@@ -6,5 +6,11 @@ sudo apt-get install -y php7.2-mysql
 sudo apt-get install -y php7.2-intl
 sudo apt-get install -y php7.2-sqlite3
 sudo apt-get install -y php7.2-zip
+sudo apt-get install -y php7.2-imagick
+sudo apt-get install -y php-pear
+sudo apt-get install -y php7.2-dev
+sudo apt-get install -y php-xdebug
+
+sudo cp ../config/php-xdebug-ini /etc/php/7.2/mods-available/xdebug.ini
 
 sudo service apache2 restart
