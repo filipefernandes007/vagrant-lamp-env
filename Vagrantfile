@@ -70,6 +70,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         config.vm.provision :shell, privileged: true, path: "scripts/setup-php-71.sh"
     elsif parse['dependencies']['php-72'] == true
         config.vm.provision :shell, privileged: true, path: "scripts/setup-php-72.sh"
+    elsif parse['dependencies']['php-73'] == true
+        config.vm.provision :shell, privileged: true, path: "scripts/setup-php-73.sh"
     end
 
     if parse['dependencies']['redis'] == true

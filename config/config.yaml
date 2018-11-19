@@ -4,6 +4,7 @@ hostsupdater : false
 dependencies:
   php-71: false
   php-72: true
+  php-73: false
   mysql : true
   sqlite : true
   java-8 : false
@@ -14,4 +15,3 @@ dependencies:
   elasticsearch : false
 database: "dev"
 home_dir_folder: "www"
-
