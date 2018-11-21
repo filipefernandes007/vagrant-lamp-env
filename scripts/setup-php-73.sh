@@ -15,6 +15,7 @@ sudo apt-get install -y php7.3-intl
 sudo apt-get install -y php7.3-sqlite3
 sudo apt-get install -y php7.3-zip
 sudo apt-get install -y php7.3-imagick
+sudo apt-get install -y php7.3-pcntl
 sudo apt-get install -y php-pear
 sudo apt-get install -y php7.3-dev
 sudo apt-get install -y php-xdebug

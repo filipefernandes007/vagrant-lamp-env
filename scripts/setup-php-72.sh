@@ -8,6 +8,7 @@ sudo apt-get install -y php7.2-intl
 sudo apt-get install -y php7.2-sqlite3
 sudo apt-get install -y php7.2-zip
 sudo apt-get install -y php7.2-imagick
+sudo apt-get install -y php7.2-pcntl
 sudo apt-get install -y php-pear
 sudo apt-get install -y php7.2-dev
 sudo apt-get install -y php-xdebug
