@@ -17,7 +17,7 @@
 ### Install
 
 ```
-git clone https://github.com/filipefernandes007/vagrant-lamp.git
+git clone https://github.com/filipefernandes007/vagrant-lamp-env
 cd vagrant-lamp
 vagrant up
 ```
