@@ -4,6 +4,7 @@
 
 * [PHP] 5.6, 7.0, 7.1, 7.2, 7.3
 * [Apache](https://www.apache.org/) 2.4
+* Nginx
 * [Mysql](https://dev.mysql.com/downloads/mysql/5.7.html) 5.7
 * [Sqlite3](https://sqlite.org/index.html)
 * [MongoDB](https://www.mongodb.com/download-center) 4.0
